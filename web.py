@@ -9,7 +9,6 @@ def add_todo():
     todos.append(new_todo)
     functions.write_file(todos)
     st.session_state["todo_input"] = ''
-    st.rerun()
 
 
 st.title("My To-Do App", anchor=False)
